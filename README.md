@@ -23,7 +23,7 @@ def build_model(my_learning_rate):
                 loss="mean_squared_error",
                 metrics=[tf.keras.metrics.RootMeanSquaredError()])
 
-  return model           
+  return model            
 
 
 def train_model(model, feature, label, epochs, batch_size):
